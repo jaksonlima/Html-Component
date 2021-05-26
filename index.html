@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        box-sizing: border-box;
+        background: linear-gradient(to left, #00c9ff, #92fe9d);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h3 {
+        margin: 10px;
+        text-align: center;
+        color: #8e0e00;
+      }
+      div {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>4 cores</h3>
+    <div>
+      <meu-componente texto="Atributos" background="green" to-hiden> </meu-componente>
+      <meu-componente texto="Atributos" color="white"> </meu-componente>
+      <meu-componente texto="Atributos" background="blue" color="white"> </meu-componente>
+      <meu-componente texto="Atributos" background="yellow"> </meu-componente>
+    </div>
+    <script src="component.js"></script>
+  </body>
+</html>
